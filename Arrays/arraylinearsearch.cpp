@@ -12,7 +12,7 @@ int main()
         if (arr[i] == x)
         {
             // cout<<"Element found";
-            cout << "Found";
+            cout << "Element Found";
         }
     }
 
