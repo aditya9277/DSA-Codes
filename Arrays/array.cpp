@@ -17,7 +17,7 @@ void incArray(int arr[], int size)
 int main()
 {
     int size = 5;
-    int arr[] = {2, 5, 7, 8, 1};
+    int arr[size] = {2, 5, 7, 8, 1};
     incArray(arr, size);
     printArr(arr, size);
 
