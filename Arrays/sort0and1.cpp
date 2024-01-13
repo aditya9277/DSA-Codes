@@ -22,7 +22,7 @@ int main(){
 
     // }
     int i=0;
-    while(i<=right){
+    while(left<=right){
         if(arr[i]==0){
             swap(arr[left],arr[i]);
             i++; 
