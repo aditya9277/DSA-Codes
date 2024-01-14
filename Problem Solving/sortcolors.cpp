@@ -9,7 +9,7 @@ int main(){
             if(nums[m]==0){
                 swap(nums[l],nums[m]);
                 l++,m++;
-            }
+            }s
             else if(nums[m]==1){
                 m++;
             }
