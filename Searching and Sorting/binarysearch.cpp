@@ -16,10 +16,10 @@ int main(){
             cout<<"Element found at index "<<mid;
             return 0;
         }
-        if(tgt<arr[mid]){
+        else if(tgt<arr[mid]){
             end=mid-1;
         }
-        if(tgt>arr[mid]){
+        else{
             start=mid+1;
     
         }
