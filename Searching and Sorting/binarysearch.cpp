@@ -5,9 +5,9 @@ using namespace std;
 
 
 int main(){
-    int n=7;
-    int tgt=3;
-    int arr[n]={3,6,7,9,12,13,15};
+    int n=8;
+    int tgt=13;
+    int arr[n]={3,6,7,9,11,12,13,15};
     int start=0;
     int end=n-1;
     while(start<=end){
