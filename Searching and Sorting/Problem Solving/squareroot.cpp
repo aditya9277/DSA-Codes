@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main(){
-    int n=11;
+    int n=14;
     int s=1;
     int e=n;
     int ans=0;
@@ -24,9 +24,15 @@ int main(){
             s=mid+1;
         }
     }
-    for(int i=1;i<p;i++){
-        for(double j=0)
+    double pans=ans;
+    double step=0.1;
+    for(int i=0;i<p;i++){
+        for(double j=pans; j*j<=n; j=j+step){
+            pans=j;
+        }
+        step/=10;
     }
+    cout<<pans;
 
 
     return 0;
