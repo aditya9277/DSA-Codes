@@ -29,8 +29,5 @@ int main(){
             ch2[i]=ch2[i]-'a'+'A';
     }
     cout<<ch2;
-
-
-
     return 0;
 }
