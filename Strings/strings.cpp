@@ -23,11 +23,17 @@ int main(){
     //if compare == 0 - both strings are equal
     //if compare !=0 - strings are different
     string a="aditya gupta is best"; 
-    string target="xx";
-    cout<<a.find(target)<<endl; //returns first index of the the tagret string
-    if(a.find(target)==string::npos){
-        cout<<"Not found";
-    }
+    // string target="xx";
+    // cout<<a.find(target)<<endl; //returns first index of the the tagret string
+    // if(a.find(target)==string::npos){
+    //     cout<<"Not found";
+    // }
+
+    // string word="adi";
+    // a.replace(0,6,word);
+    // cout<<a;
+
+    
 
 
 
