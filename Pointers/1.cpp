@@ -15,13 +15,19 @@ int main(){
     // char *ch=&c; 
     // cout<<sizeof(ch);
 
-    int arr[5]={0,1,2,3,4};
-    cout<<arr<<endl;
-    cout<<&arr<<endl;
-    cout<<&arr[0]<<endl;
-    int *p= arr;
-    cout<<p<<endl;
-    cout<<&p<<endl;
+    //array operations
+
+    int arr[5]={6,1,2,3,4};
+    // cout<<arr<<endl;
+    // cout<<&arr<<endl;
+    // cout<<&arr[0]<<endl;
+    // int *p= arr;
+    // cout<<p<<endl;
+    // cout<<&p<<endl;
+
+    cout<<*arr<<endl; 
+    cout<<*arr+3;
+    cout<<*(arr+1);
 
 
 
