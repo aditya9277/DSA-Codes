@@ -27,7 +27,7 @@ int main(){
 
     cout<<*arr<<endl; 
     cout<<*arr+3;
-    cout<<*(arr+1);
+    cout<<*(arr+3);
 
 
 
