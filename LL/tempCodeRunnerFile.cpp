@@ -1,1 +1,0 @@
-RemovesHeadofLL(head);
