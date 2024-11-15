@@ -50,7 +50,6 @@ Node* RemovesTailofLL(Node* &head){
     temp->next = nullptr;
 }
 
-
 Node* RemoveKth(Node* &head,int k){
     Node* temp = head;
     Node* prev = NULL;
