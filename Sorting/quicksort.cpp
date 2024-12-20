@@ -28,7 +28,7 @@ void qs(vector<int> &arr,int low, int high){
 }
 
 int main(){
-    vector<int> arr={4,7,11,3,1,9,2,6,8,5};
+    vector<int> arr={4,7,11,71,19,3,1,9,2,6,8,5};
     int n=arr.size();
     qs(arr,0,n-1);
 
